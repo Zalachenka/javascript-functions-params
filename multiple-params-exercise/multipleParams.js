@@ -1,6 +1,6 @@
-function checkConfirmationEmail (email, confirmation) {
-	email = prompt("Enter your email address");
-	confirm = prompt("Confirm your email address");
-	email == confirm ? alert("Correct !") : alert("Incorrect");
-};
-checkConfirmationEmail();
+function checkConfirmationEmail(email, confirmation) {
+  email == confirm ? alert('Correct !') : alert('Incorrect');
+}
+const email = prompt('Enter your email address');
+const confirm = prompt('Confirm your email address');
+checkConfirmationEmail(email, confirm);
